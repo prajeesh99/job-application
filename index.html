@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="fullscreen">
+        <img src="img1.jpg" alt="alternatetext" class="picture">
+        <div class="logo">
+            <h1 >A B C</h1>
+        </div>
+        <div class="logo1">
+            <h1 >Electricals</h1>
+        </div>  
+        <div class="text">
+            <h1>Employment Application</h1>
+            <p>Fill the form below accuratly indicating your potentials<br>
+                and suitability to job applying for.
+            </p>
+        </div>
+    </div>
+    <section>
+        <div class="regform">
+            <h1>Registration Form</h1>
+
+        </div>
+        <div class="menu">
+            <form>
+                <div id="name">
+                    <h2 class="name">Name</h2>
+                    <input class="firstname" type="text" name="first_name"><br>
+                    <label class="firstlabel">First name</label>
+                    <input class="lastname" type="text" name="last_name">
+                    <label class="lastlabel">Last name</label>
+                </div>
+                <h2 class="name">Email</h2>
+                <input class="email" type="email" name="email">
+
+                <h2 class="name">Phone</h2>
+                <input class="code" type="number" name="area_code">
+                <label class="area_code">Area code</label>
+                <input class="number" type="number" name="phone">
+                <label class="phone_number">Phone Number</label>
+
+                <h2 class="name">Birth Date</h2>
+                <select name="month" id="month">
+                    <option value="option">SELECT</option>
+                    <option value="jan">JAN</option>
+                    <option value="feb">FEB</option>
+                    <option value="mar">MARCH</option>
+                    <option value="april">APRIL</option>
+                    <option value="may">MAY</option>
+                    <option value="june">JUNE</option>
+                    <option value="july">JULY</option>
+                    <option value="aug">AUG</option>
+                    <option value="sept">SEPT</option>
+                    <option value="oct">OCT</option>
+                    <option value="nav">NAV</option>
+                    <option value="dece">DECE</option>
+                  </select>
+                <label class="birth_month">Month</label>
+                <select name="date" id="date">
+                    <option value="option">SELECT</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                  </select>
+                <label class="birth">Date</label>
+                <select name="birth_year" id="year">
+                    <option value="option">SELECT</option>
+                    <option value="1">1999</option>
+                    <option value="2">2000</option>
+                    <option value="3">2001</option>
+                    <option value="4">2002</option>
+                    <option value="5">2003</option>
+                    <option value="6">2004</option>
+                    <option value="7">2005</option>
+                    <option value="8">2006</option>
+                    <option value="9">2006</option>
+                    <option value="10">2007</option>
+                    <option value="11">2008</option>
+                    <option value="12">2009</option>
+                  </select>
+                <label class="year">Year</label>
+
+                <h2 class="name">Address</h2>
+                <input class="street_adress" type="text" name="street_adress">
+                <label class="adr1">Street Address</label>
+                <input class="street_adress2" type="text" name="street_adress2">
+                <label class="adr2">Street Address Line 2</label>
+                <input class="state" type="text" name="state">
+                <label class="adr3">State</label>
+                <input class="pin" type="number" name="pin">
+                <label class="adr4">Postal Pin</label>
+
+                <h2 id="name1">How where you reffered to us?</h2>
+                <input type="radio" id="news" name="how1" value="news">
+                <label for="news" id="how2">News Paper</label><br>
+                <input type="radio" id="social" name="how1" value="social">
+                <label for="social" id="how3">Social Media</label><br>
+                <input type="radio" id="employee" name="how1" value="employee">
+                <label for="employee" id="how4">Employee</label>
+
+                <h2 class="name">Resume</h2>
+                <form action="/action_page.php" id="upl">
+                    <input type="file" id="myFile" name="filename">
+                  </form>
+                
+                  
+                <h2 class="name">Skills</h2> 
+                <input class="skill" type="text" name="skill"><br><br>
+                
+                
+                <input type="submit" value="Submit" class="butt">
+            </form>
+        </div>
+    </section>
+</body>
+</html>

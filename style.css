@@ -1,0 +1,360 @@
+.picture{
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  
+}
+.text{
+  padding: 5px;
+  background: black;
+  color: white;
+  position: absolute;
+  top: 200px;
+  margin-left: 280px;
+  border-radius: 10%;
+  opacity: 0.5;
+}
+.logo{
+  color: rgb(226, 11, 11);
+  position: absolute;
+  margin-left: 280px;
+  top: 5px;
+  font-size: 45px;
+}
+.logo1{
+  color: rgb(226, 11, 11);
+  position: absolute;
+  margin-left: 540px;
+  top: 63px;
+  font-size: 25px;
+}
+body{
+  background-color: aquamarine;
+  font-family: sans-serif;
+}
+.regform{
+  width: 800px;
+  background-color: rgb(0,0,6);
+  margin: auto;
+  color: #ffffff;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+  margin-top: 25px;
+}
+.menu{
+  background-color: rgb(0, 0, 0, 0.5);
+  width: 800px;
+  margin: auto;
+  height: 1250px;
+  padding-top: 10px;
+}
+#name{
+  width: 100%;
+  height: 100px;
+}
+.name{
+  margin-left: 25px;
+  margin-top: 30px;
+  width: 125px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+.firstname{
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+.lastname{
+  position: relative;
+  left: 417px;
+  top: -80px;
+  line-height: 40px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+
+}
+.firstlabel{
+  position: relative;
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: 203px;
+  top: -45px;
+}
+.lastlabel{
+  position: relative;
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: 175px;
+  top: -45px;
+}
+.email{
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 480px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+.code{
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 95px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+.number{
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 255px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+.area_code{
+  position: relative;
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: 54px;
+  top: -4px;
+}
+.phone_number{
+  position: relative;
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: -100px;
+  top: -2px;
+}
+#month{
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 130px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+#date{
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 130px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+#year{
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 130px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+.birth_month{
+  position: relative;
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: 67px;
+  top: -7px;
+}
+.birth{
+  position: relative;
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: 69px;
+  top: -7px;
+}
+.year{
+  position: relative;
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: 68px;
+  top: -7px;
+}
+.street_adress{
+  position: relative;
+  left: 200px;
+  top: -37px;
+  line-height: 40px;
+  width: 480px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+.street_adress2{
+  position: relative;
+  left: 200px;
+  top: -4px;
+  line-height: 40px;
+  width: 480px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+.state{
+  position: relative;
+  left: 200px;
+  top: 31px;
+  line-height: 40px;
+  width: 255px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+.pin{
+  position: relative;
+  left: -146px;
+  top: 112px;
+  line-height: 40px;
+  width: 255px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+.adr1{
+  position: relative;
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: -332px;
+  top: -5px;
+}
+.adr2{
+  position: relative;
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: -332px;
+  top: 27px;
+}
+.adr3{
+  position: relative;
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: -107px;
+  top: 61px;
+}
+.adr4{
+  position: relative;
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: -452px;
+  top: 142px;
+}
+#name1{
+  margin-left: 25px;
+  margin-top: 146px;
+  width: 125px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+#news{
+  position: relative;
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: 190px;
+  top: -74px;
+}
+#social{
+  position: relative;
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: 190px;
+  top: -63px;
+}
+#employee{
+  position: relative;
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: 190px;
+  top: -52px;
+}
+#how2{
+  position: relative;
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: 190px;
+  top: -74px;
+}
+#how3{
+  position: relative;
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: 190px;
+  top: -63px;
+}
+#how4{
+  position: relative;
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-size: 14px;
+  left: 190px;
+  top: -52px;
+}
+#myFile{
+  color: #e5e5e5;
+  margin-left: 190px;
+  margin-top: -50px;
+}
+.skill{
+  position: relative;
+  left: 190px;
+  top: -37px;
+  line-height: 40px;
+  width: 480px;
+  height: 100px;
+  border-radius: 6px;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555;
+}
+.butt{
+  position: relative;
+  margin-left: 385px;
+}
